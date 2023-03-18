@@ -1,0 +1,260 @@
+body{
+    background-color:#1E2634 ;
+    color: white;
+    font-family: "Iceland", cursive;
+}
+
+body a{
+    color: white;
+    font-family: "iceland", cursive;
+}
+.glow{
+    color: black;
+    padding-bottom:15px ;
+    font-weight: bolder;
+    display: inline-block;
+    text-shadow: 0px 0px 11px rgb(29, 9, 160);
+    padding: 10px;
+}
+
+.glow:hover{
+    text-shadow: 8px 10px 22px #ff0000;
+}
+/*Pokemon Logo*/
+.logo{
+    height:120px;
+    padding: 0px;
+    width: 180px;
+    display: inline-flex;
+    cursor:pointer;
+    box-shadow: 0px 0px 11px rgb(157, 158, 160);
+    border-radius: 15px;
+}
+/**  Hambergur  **/
+.tl{
+    background-color: rgb(16, 3, 86);
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+    display:flex;
+    padding: 2px;
+    width:30px;
+}
+
+
+/**Navigation Bar**/
+.nav{
+    padding:20px;
+    background-color: white;
+    border-radius:15px;
+}
+/**List in Navigation Bar**/
+.nav a{
+
+    display: inline-block;
+    border-bottom: 5px solid rgb(16, 3, 86);
+    color:rgb(16, 3, 86);
+    padding: 10px;
+    width: max-content;
+    transition: 2s;
+    font-family:berlin sans fb;
+
+}
+
+.nav a:hover{
+    background-color: rgb(16, 3, 86);
+    color: rgb(247, 255, 2);
+    font-weight: bolder;
+    padding: 9px;
+    border-color: rgb(247, 255, 2);
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    text-shadow: rgb(247, 255, 2);
+    transition:2s;
+    cursor: pointer;
+    
+    
+}
+/**Footer**/
+footer{
+    background-color:#131821;
+    padding:10px;
+    border-radius:15px;
+    color: white;
+    font-family: raleway;
+}
+
+footer a{
+    color: white;
+    padding: 10px;
+    font-family: raleway;
+    display: block;
+    border-radius: 10px;
+    background-color: #ff0000;
+    width: max-content;
+}
+
+/**Pokemon Card**/
+.card{
+    display: inline-table;
+    padding: 10px;
+    font-weight: bolder;
+    width: 180px;
+    margin: 2px;
+    transition: box-shadow .3s;
+    border-radius: 25px;
+    border:1px;
+    align-items: center;
+    transition: 1s;
+    box-shadow: 0px 0px 11px rgb(0, 81, 255);
+    background-image: linear-gradient(135deg,rgb(0, 0, 0),rgb(16, 3, 86),#000000);
+
+
+}
+.card:hover{
+    padding: 12px;
+    transition: 1s;
+    box-shadow: 22px 22px 44px #ff0000;
+    border-color: #ff0000;
+    border-style: solid;
+    border-radius: 15px;
+    border: 2px;
+    background-image: linear-gradient(135deg,rgb(149, 9, 9),#510606cb,#ff0000);
+}
+
+
+/**Upper white part of pokeball**/
+.card-head{
+    background-color: white;
+    color: #131821;
+    height: 150px;
+
+    border-radius: 10px 10px 0 0;;
+    position: relative;
+    text-shadow: #1e3b6c;
+    
+    text-align: center;
+}
+
+.head-card{
+    text-shadow: 10px 10px 11px #ff0000;
+    font-weight: bolder;
+    font-family: agency fb;
+}
+
+/**Lower red part of Pokeball**/
+.card-foot{
+    background-color: red;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    border-color: #0056df;
+    height: 150px;
+    text-align: center;
+    
+    font-family:agency fb;
+    
+}
+
+/**Black strip of Pokeball**/
+.box-card{
+    background-color: black;
+    border-radius: 0px;
+    height: 30px;
+
+    
+}
+
+/*Button for type of Pokemon*/
+.poke-class{
+    border-radius: 5px;
+    border:none;
+    color:black;
+    margin-top:20px;
+    padding: 7px;
+    position: relative;
+    border-width: 5px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+
+/*Image of Pokemon*/
+.poke-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 150px;
+}
+/**Id for Types of Pokemons**/
+#normal{
+    background-color: #205E61;
+}
+
+#grass{
+    background-color: #58db2d;
+}
+
+#psychic{
+    background-color: #ed98f3;
+}
+
+#fire{
+    background-color: orangered;
+}
+
+#steel{
+    background-color: darkolivegreen;
+}
+
+#electric{
+    background-color: yellow;
+
+}
+
+#water{
+    background-color: rgb(78, 194, 233);
+}
+
+#ice{
+    background-color: rgb(0, 140, 140);
+}
+
+#poison{
+    background-color: purple;
+}
+#flying{
+    background-color: rgb(38, 187, 203);
+}
+
+#fairy{
+    background-color: rgb(243, 66, 95);
+}
+
+#ground{
+    background-color: #5a3939;
+}
+
+.circle{
+    background-color: red;
+    border-color: rgb(255, 255, 255);
+    border: solid 5px;
+    border-radius: 50%;
+    box-shadow:0px 0px 25px rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    overflow: visible;
+    padding: 0px;
+    align-content: center;
+    display: block;
+    transition: 1s;
+}
+.circle:hover{
+    background-color: rgb(0, 245, 237);
+    box-shadow: rgb(0, 245, 237);
+    transition: 1s;
+}
+
+
+
+
+
