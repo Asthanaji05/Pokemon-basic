@@ -1,5 +1,5 @@
 body{
-    background-color:#1E2634 ;
+    background-image:linear-gradient(180deg, #02204a,#0037ff,#02205c) ;
     color: white;
     font-family: "Iceland", cursive;
 }
@@ -9,16 +9,16 @@ body a{
     font-family: "iceland", cursive;
 }
 .glow{
-    color: black;
+    color: rgb(255, 255, 255);
     padding-bottom:15px ;
     font-weight: bolder;
     display: inline-block;
-    text-shadow: 0px 0px 11px rgb(29, 9, 160);
+    text-shadow: 0px 0px 11px rgb(0, 255, 255);
     padding: 10px;
 }
 
 .glow:hover{
-    text-shadow: 8px 10px 22px #ff0000;
+    text-shadow: 8px 10px 22px #052b84;
 }
 /*Pokemon Logo*/
 .logo{
@@ -27,14 +27,13 @@ body a{
     width: 180px;
     display: inline-flex;
     cursor:pointer;
-    box-shadow: 0px 0px 11px rgb(157, 158, 160);
     border-radius: 15px;
 }
 /**  Hambergur  **/
 .tl{
-    background-color: rgb(16, 3, 86);
+    background-color: rgb(181, 245, 244);
     border-width: 1px;
-    border-color: white;
+    border-color: rgb(1, 0, 8);
     border-radius: 15px;
     display:flex;
     padding: 2px;
@@ -45,15 +44,16 @@ body a{
 /**Navigation Bar**/
 .nav{
     padding:20px;
-    background-color: white;
+    background-color: transparent;
     border-radius:15px;
+    color:white
 }
 /**List in Navigation Bar**/
 .nav a{
 
     display: inline-block;
-    border-bottom: 5px solid rgb(16, 3, 86);
-    color:rgb(16, 3, 86);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
     padding: 10px;
     width: max-content;
     transition: 2s;
@@ -62,16 +62,16 @@ body a{
 }
 
 .nav a:hover{
-    background-color: rgb(16, 3, 86);
-    color: rgb(247, 255, 2);
-    font-weight: bolder;
-    padding: 9px;
-    border-color: rgb(247, 255, 2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-color: rgb(156, 3, 3);
     border-radius: 5px 5px 0px 0px;
     text-align: center;
-    text-shadow: rgb(247, 255, 2);
+    text-shadow: rgb(255, 0, 0);
     transition:2s;
     cursor: pointer;
+    border-width: 5px;
     
     
 }
@@ -97,7 +97,7 @@ footer a{
 /**Pokemon Card**/
 .card{
     display: inline-table;
-    padding: 10px;
+    padding: 5px;
     font-weight: bolder;
     width: 180px;
     margin: 2px;
@@ -107,7 +107,7 @@ footer a{
     align-items: center;
     transition: 1s;
     box-shadow: 0px 0px 11px rgb(0, 81, 255);
-    background-image: linear-gradient(135deg,rgb(0, 0, 0),rgb(16, 3, 86),#000000);
+    background-image: linear-gradient(135deg,rgb(0, 162, 255),rgba(16, 80, 176, 0.601),#01a2ff);
 
 
 }
@@ -117,7 +117,7 @@ footer a{
     box-shadow: 22px 22px 44px #ff0000;
     border-color: #ff0000;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 25px;
     border: 2px;
     background-image: linear-gradient(135deg,rgb(149, 9, 9),#510606cb,#ff0000);
 }
@@ -129,7 +129,7 @@ footer a{
     color: #131821;
     height: 150px;
 
-    border-radius: 10px 10px 0 0;;
+    border-radius: 25px 25px 0 0;;
     position: relative;
     text-shadow: #1e3b6c;
     
@@ -144,9 +144,9 @@ footer a{
 
 /**Lower red part of Pokeball**/
 .card-foot{
-    background-color: red;
+    background-image:linear-gradient( rgb(97, 10, 10),red,#ff2a2a);
     color: white;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 25px 25px;
     border-color: #0056df;
     height: 150px;
     text-align: center;
@@ -183,23 +183,31 @@ footer a{
     width: 100px;
     height: 100px;
     overflow: hidden;
-    border-radius: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: #02204a;
+}
+
+.poke-image:hover{
+    box-shadow: 0px 2px 10px red;
 }
 /**Id for Types of Pokemons**/
 #normal{
-    background-color: #205E61;
+    background-image: linear-gradient(#065542,#04844d);
+    color: white;
 }
 
 #grass{
-    background-color: #58db2d;
+    background-image: linear-gradient(#58db2d,#109426);
 }
 
 #psychic{
-    background-color: #ed98f3;
+    color: white;
+    background-image: linear-gradient(#5d0e81,#af08af, #ed98f3);
 }
 
 #fire{
-    background-color: orangered;
+    background-image: linear-gradient(55deg,orange,orangered,red);
 }
 
 #steel{
@@ -207,16 +215,17 @@ footer a{
 }
 
 #electric{
-    background-color: yellow;
+    background-image:linear-gradient(yellow,#a57e08);
 
 }
 
 #water{
-    background-color: rgb(78, 194, 233);
+   color: white;
+    background-image: linear-gradient(rgb(78, 194, 233),rgb(11, 74, 125),rgb(0, 78, 195));
 }
 
 #ice{
-    background-color: rgb(0, 140, 140);
+    background-image: linear-gradient(rgb(0, 140, 140),rgb(78,194,233),lightblue);
 }
 
 #poison{
@@ -227,11 +236,12 @@ footer a{
 }
 
 #fairy{
-    background-color: rgb(243, 66, 95);
+    color: white;
+    background-image: linear-gradient( rgb(243, 66, 95) ,#f5024f ,#a8064c) ;
 }
 
 #ground{
-    background-color: #5a3939;
+    background-image: linear-gradient(#5f360a,#763504, #5a3939);
 }
 
 .circle{
@@ -261,7 +271,7 @@ footer a{
     transition: 1s
 }
 .ball:hover{
-    box-shadow: 0px 0px 40px #ff0000;
+    box-shadow: 0px 0px 40px #01fbff;
     transition: 1s;
 }
 
